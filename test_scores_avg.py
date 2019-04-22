@@ -17,7 +17,7 @@ for student in range(num_students):
         print('Test number ', test_num + 1, end='')
         score = float(input(': '))
         #add score to accumulator
-        total += score;
+        total += score
     
     #calculate average
     average = total / num_test_scores
